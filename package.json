@@ -1,0 +1,14 @@
+{
+  "name": "elektrik",
+  "version": "0.0.1",
+  "description": "discord elektrik botu",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "ToprakT",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
