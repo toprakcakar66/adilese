@@ -172,7 +172,7 @@ if (msg.content.toLocaleLowerCase() === prefix + "evet") {
   return msg.channel.send(embed)
 }
  if (msg.content.toLowerCase() === prefix + "yayın") {
-   msg.reply('https://www.youtube.com/watch?v=MvQvj-WJ1iQ')
+   msg.reply('şu anda yayında değil.Lütfen daha sonra yaz.)
  }
 });
 
