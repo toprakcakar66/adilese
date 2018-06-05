@@ -172,7 +172,7 @@ if (msg.content.toLocaleLowerCase() === prefix + "evet") {
   return msg.channel.send(embed)
 }
  if (msg.content.toLowerCase() === prefix + "yayın") {
-   msg.reply('https://www.youtube.com/watch?v=3BRAhH9CS_4')
+   msg.reply('https://www.youtube.com/watch?v=qlIGPX0C6G0')
  }
 });
 
