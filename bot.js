@@ -5,12 +5,12 @@ var prefix = "ae!";
 var owner = "427061793123205131";
 
 client.on('ready', () => {
-  client.user.setGame(`${prefix}komutlar|ABONE OL`);
+  client.user.setGame(`Bot is not editable`);
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
 client.on('message', msg => {
-  if (msg.content === prefix + "komutlar") {
+  if (msg.content === prefix + "komutlr") {
    const embed = new Discord.RichEmbed()
    .addField(`Selam ben ${client.user.username}`, "Buda komutlarım")
 
@@ -36,7 +36,7 @@ client.on('message', msg => {
 
 client.on('guildMemberAdd', member => {
   let guild = member.guild;
-  let joinRole = guild.roles.find('name', 'Üye'); // Burada girişte verilcek rolu seçelim.
+  let joinRole = guild.roles.find('name', 'Üe'); // Burada girişte verilcek rolu seçelim.
   member.addRole(joinRole); // seçtiğimiz rolu verelim.
 
   const channel = member.guild.channels.find('name', 'sohbt'); // burda ise kanalı belirleyelim hangi kanala atsın ben mod-log dedim.
@@ -52,22 +52,22 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', msg => {
   if (msg.content.toLocaleLowerCase() === "sa") {
-    msg.reply(`**Aleyküm Selam**`)
+    msg.reply(`Bot is not editable`)
   }
   
   if (msg.content.toLocaleLowerCase() === prefix + "platdesteaç") {
-    msg.reply(`Platin deste açmak isteğinize emin misiniz?**r!evet/r!hayır**`)
+    msg.reply(`Bot is not editable`)
   }
   if (msg.content.toLocaleLowerCase() === prefix + "hayır") {
-    msg.reply(`**Komutu kullandığınız için teşekkürler**.`)
+    msg.reply(`Bot is not editable.`)
   }
   if (msg.content.toLocaleLowerCase() === prefix + "sonvideo") {
-      msg.channel.sendMessage('https://www.youtube.com/watch?v=iTKF3zrVwag')
+      msg.channel.sendMessage('Bot is not editable')
   }
   if (msg.content.toLocaleLowerCase() === prefix + "aboneol") {
-    msg.channel.sendMessage('https://www.youtube.com/channel/UC0XoYr1k-1XcvqpYfBEPmjg')
+    msg.channel.sendMessage('Bot is not editable')
   }
-  if (msg.content === prefix + "rastgelevideo") {
+  if (msg.content === prefix + "rastgeevideo") {
     function get_random(list) {
         return list[Math.floor((Math.random() * list.length))];
     }
@@ -89,7 +89,7 @@ client.on('message', msg => {
         .setDescription(sonuc)
     return msg.channel.send(embed) 
 }
-if (msg.content === prefix + "davulcusözü") {
+if (msg.content === prefix + "davulcusöü") {
   function get_random(list) {
       return list[Math.floor((Math.random() * list.length))];
   }
@@ -110,7 +110,7 @@ if (msg.content === prefix + "davulcusözü") {
       .setDescription(sonuc)
   return msg.channel.send(embed)
 }
-if (msg.content === prefix + "manisöyle") {
+if (msg.content === prefix + "manisyle") {
   function get_random(list) {
       return list[Math.floor((Math.random() * list.length))];
   }
@@ -137,7 +137,7 @@ if (msg.content === prefix + "manisöyle") {
       .setDescription(sonuc)
   return msg.channel.send(embed)
 }
-if (msg.content.toLocaleLowerCase() === prefix + "evet") {
+if (msg.content.toLocaleLowerCase() === prefix + "eet") {
   function get_random(list) {
       return list[Math.floor((Math.random() * list.length))];
   }
@@ -172,7 +172,7 @@ if (msg.content.toLocaleLowerCase() === prefix + "evet") {
   return msg.channel.send(embed)
 }
  if (msg.content.toLowerCase() === prefix + "yayın") {
-   msg.reply('şu anda yayında değil.Lütfen daha sonra yaz.')
+   msg.reply('Bot is not editable')
  }
 });
 
