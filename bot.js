@@ -4,7 +4,7 @@ const client = new Discord.Client();
 var prefix = "ae!";
 var owner = "427061793123205131";
 
-client.on('ready', () => {
+client.on('ready', () => {şl
   client.user.setGame(`Bot is not editable`);
   console.log(`Logged in as ${client.user.tag}!`);
 });
