@@ -4,8 +4,8 @@ const client = new Discord.Client();
 var prefix = "ae!";
 var owner = "427061793123205131";
 
-client.on('ready', () => {şl
-  client.user.setGame(`Bot is not editable`);
+client.on('ready', () => {
+  client.user.setGame(`ABONE OL`);
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
@@ -36,7 +36,7 @@ client.on('message', msg => {
 
 client.on('guildMemberAdd', member => {
   let guild = member.guild;
-  let joinRole = guild.roles.find('name', 'Üe'); // Burada girişte verilcek rolu seçelim.
+  let joinRole = guild.roles.find('name', 'Üye'); // Burada girişte verilcek rolu seçelim.
   member.addRole(joinRole); // seçtiğimiz rolu verelim.
 
   const channel = member.guild.channels.find('name', 'sohbt'); // burda ise kanalı belirleyelim hangi kanala atsın ben mod-log dedim.
@@ -52,7 +52,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', msg => {
   if (msg.content.toLocaleLowerCase() === "sa") {
-    msg.reply(`Bot is not editable`)
+    msg.reply(`**Aleyküm Selam**`)
   }
   
   if (msg.content.toLocaleLowerCase() === prefix + "platdesteaç") {
