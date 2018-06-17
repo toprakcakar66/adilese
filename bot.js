@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-i
+
 var prefix = "ae!";
 var owner = "427061793123205131";
 
