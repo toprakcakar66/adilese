@@ -30,6 +30,12 @@ client.on('message', msg => {
     if (msg.content.toLowerCase() === 'sa') {
     msg.reply('Aleyküm selam!');
   }
+    if (msg.content.toLowerCase() === prefix + 'yayın') {
+    msg.reply('https://www.youtube.com/watch?v=InOdAt0v49Q');
+  }
+    if (msg.content.toLowerCase() === prefix + '155') {
+    msg.reply('Bir Olaymi Oldu? Polisle Konusun \n @:computer: Discord Mod :computer: \n @:wrench:Moderasyon Ekibi:wrench: \n@:gem:YONETICI:gem: \n@:no_entry:Dc Mod Lideri:no_entry:');
+  }
 });
 
 client.login('NDYyMjExMzIxNzQ4NzgzMTE1.DhejXA.RXomOSzMuJb6o1SjSwiTRGXXKgY')
