@@ -31,7 +31,10 @@ client.on('message', msg => {
     msg.reply('Aleyküm selam!');
   }
     if (msg.content.toLowerCase() === prefix + 'yayın') {
-    msg.reply('https://www.youtube.com/watch?v=InOdAt0v49Q');
+    msg.channel.sendMessage('@everyone https://www.youtube.com/watch?v=InOdAt0v49Q');
+  }
+    if (msg.content.toLowerCase() === prefix + 'yayin') {
+    msg.channel.sendMessage('@everyone https://www.youtube.com/watch?v=InOdAt0v49Q');
   }
     if (msg.content.toLowerCase() === prefix + '155') {
     msg.reply('Bir Olaymi Oldu? Polisle Konusun ```@Discord Mod\n@Moderasyon Ekibi \n@YONETICI \n@Dc Mod Lideri```');
