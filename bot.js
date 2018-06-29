@@ -1,4 +1,4 @@
-hconst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 var prefix = "m!";
@@ -30,6 +30,16 @@ client.on('message', msg => {
     if (msg.content.toLowerCase() === 'sa') {
     msg.reply('Aleyküm selam!');
   }
+    if (msg.content.toLowerCase() === prefix + 'yayın') {
+    msg.reply('https://www.youtube.com/watch?v=InOdAt0v49Q');
+  }
+    if (msg.content.toLowerCase() === prefix + '155') {
+    msg.reply('Bir Olaymi Oldu? Polisle Konusun ```@Discord Mod\n@Moderasyon Ekibi \n@YONETICI \n@Dc Mod Lideri```');
+  }
+});
+
+client.login('NDYyMjExMzIxNzQ4NzgzMTE1.DhejXA.RXomOSzMuJb6o1SjSwiTRGXXKgY');
+
     if (msg.content.toLowerCase() === prefix + 'yayın') {
     msg.reply('https://www.youtube.com/watch?v=InOdAt0v49Q');
   }
