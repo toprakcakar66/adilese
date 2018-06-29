@@ -34,7 +34,7 @@ client.on('message', msg => {
     msg.reply('https://www.youtube.com/watch?v=InOdAt0v49Q');
   }
     if (msg.content.toLowerCase() === prefix + '155') {
-    msg.reply('Bir Olaymi Oldu? Polisle Konusun ```@:computer: Discord Mod :computer: \n@:wrench:Moderasyon Ekibi:wrench: \n@:gem:YONETICI:gem: \n@:no_entry:Dc Mod Lideri:no_entry:');
+    msg.reply('Bir Olaymi Oldu? Polisle Konusun ```@:computer: Discord Mod :computer: \n@:wrench:Moderasyon Ekibi:wrench: \n@:gem:YONETICI:gem: \n@:no_entry:Dc Mod Lideri:no_entry:```');
   }
 });
 
