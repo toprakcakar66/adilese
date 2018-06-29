@@ -27,7 +27,7 @@ client.on('guildMemberAdd', member => {
 });
 
 client.on('message', msg => {
-    if (msg.content.toLowerCase() === prefix + 'sa') {
+    if (msg.content.toLowerCase() === 'sa') {
     msg.reply('Aleyküm selam!');
   }
 });
