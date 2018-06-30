@@ -34,7 +34,7 @@ client.on('message', msg => {
     msg.channel.sendMessage('@everyone https://www.youtube.com/watch?v=0jE2TbTX9VY');
   }
     if (msg.content.toLowerCase() === prefix + 'yayin') {
-    msg.channel.sendMessage('@everyone https://www.youtube.com/watch?v=0jE2TbTX9VY');
+    msg.channel.sendMessage('Şu anda yayın yok kardeşim');
   }
     if (msg.content.toLowerCase() === prefix + '155') {
     msg.reply('Bir Olaymi Oldu? Polisle Konusun ```@Discord Mod\n@Moderasyon Ekibi \n@YONETICI \n@Dc Mod Lideri```');
