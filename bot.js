@@ -31,7 +31,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm selam!');
   }
     if (msg.content.toLowerCase() === prefix + 'yayın') {
-    msg.channel.sendMessage('@everyone https://www.youtube.com/watch?v=0jE2TbTX9VY');
+    msg.channel.sendMessage('Şu anda yayın yok kardeşim');
   }
     if (msg.content.toLowerCase() === prefix + 'yayin') {
     msg.channel.sendMessage('Şu anda yayın yok kardeşim');
