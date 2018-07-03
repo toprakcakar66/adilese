@@ -11,20 +11,9 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member => {
-  let guild = member.guild;
-  let joinRole = guild.roles.find('name', 'MOLACI'); // Burada girişte verilcek rolu seçelim.
-  member.addRole(joinRole); // seçtiğimiz rolu verelim.
+joinRole = guild.roles.find('name', 'MOLACI'); // Burada girişte verilcek rolu seçelim.
 
-  const channel = member.guild.channels.find('name', 'hosgeldin'); // burda ise kanalı belirleyelim hangi kanala atsın ben mod-log dedim.
-  if (!channel) return;
-  const embed = new Discord.RichEmbed()
-  .setColor('RANDOM')
-  .setAuthor(member.user.username, member.user.avatarURL)
-  .setThumbnail(member.user.avatarURL)
-  .setTitle('Mola Vakti Ailesine|HOŞGELDİN')
-  .setTimestamp()
-  channel.sendEmbed(embed); // belirlediğimiz kanala mesaj gönderelim.
-});
+  
 
 client.on('message', msg => {
     if (msg.content.toLowerCase() === 'sa') {
