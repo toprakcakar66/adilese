@@ -30,7 +30,7 @@ client.on('message', msg => {
     msg.reply('Aleyküm selam!');
   }
     if (msg.content.toLowerCase() === prefix + 'yayın') {
-    msg.channel.sendMessage('Şu anda yayın yok kardeşim.');
+    msg.channel.sendMessage('@everyone https://www.youtube.com/watch?v=yUtdfXQS0LE');
   }
     if (msg.content.toLowerCase() === prefix + 'kurallar') {
     msg.channel.sendMessage('Discord Kuralları @everyone \nSpam Kesinlikle YASAKTIR```1-Profilinizde isim ve yaş zorunludur ve nickinizin başında Sembol YASAKTIR.\n2-Chatte ve Konuşma Kanallarında her türlü spam,troll ve küfür yasaktır.\n3-Chatten veya özelden item istemek (bana item atabilirmisiniz) yasaktır.\n4-Küfür, Link, Irkçılık, Din, Spam, Flood, Siyaset ve 3.Şahıs Hakkında Konuşmak Kesinlikle Yasaktır!```Bunlara uymayanlar ilk önce uyarılır. Uyarıyı dikkate almayanlar veya kuralları çiğneyenler\nSüresiz olarak BANLANIR.');
